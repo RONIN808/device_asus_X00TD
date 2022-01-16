@@ -16,7 +16,7 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit from X00TD device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 720
 
 # Official-ify
 DERP_BUILDTYPE := Official
